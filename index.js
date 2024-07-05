@@ -2,7 +2,7 @@ const Notification = (props) => {
   const { url, name,className} = props;
   return (
     <div className={`notification ${className}`}>
-      <img src={url} className="icon/>
+      <img src={url} className="icon"/>
       <p className="para">{name}</p>
     </div>
   );
